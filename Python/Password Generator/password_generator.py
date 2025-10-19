@@ -18,7 +18,7 @@ elif sym_include in negative_response:
 
 print('\n')
 
-length = int(input('Length of password: '))
+length = int(input('Enter the length of password: '))
 password = ""
 for i in range(length):
 	password=password + random.choice(characters)
